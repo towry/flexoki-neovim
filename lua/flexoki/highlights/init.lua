@@ -19,6 +19,7 @@ M.groups = function(opts)
 		require("flexoki.highlights.telescope").groups(),
 		require("flexoki.highlights.treesitter").groups(),
 		-- require('flexoki.highlights.whichkey').groups(),
+		require("flexoki.highlights.coc").groups(),
 	}
 
 	--- @type table<string, vim.api.keyset.highlight>
