@@ -9,7 +9,7 @@ M.groups = function(opts)
 	--- @type table<string, vim.api.keyset.highlight>
 	return {
 		["CocFloating"] = { link = "NormalFloat" },
-		["CocNotificationNormal"] = { fg = c["tx-2"], bg = c["bg-2"] },
+		["CocNotificationNormal"] = { fg = c["tx-2"], bg = c["ui-3"] },
 		["CocInfoFloat"] = { bg = c.gr, fg = c.re },
 		["CocNotificationButton"] = { link = "PmenuSel" },
 		["CocNotificationProgress"] = { bg = c.gr, fg = c["gr"], bold = true },
