@@ -28,28 +28,28 @@ M.groups = function(opts)
 		["DiagnosticSignInformation"] = { fg = c.info_yellow, bg = "NONE" },
 		["DiagnosticSignInfo"] = { fg = c.info_yellow, bg = "NONE" },
 		["DiagnosticSignHint"] = { fg = c.hint_blue, bg = "NONE" },
-		["DiagnosticsUnderlineError"] = {
+		["DiagnosticUnderlineError"] = {
 			fg = "NONE",
 			bg = "NONE",
 			sp = c.error_red,
 			underline = not opts.styles.undercurl,
 			undercurl = opts.styles.undercurl,
 		},
-		["DiagnosticsUnderlineWarning"] = {
+		["DiagnosticUnderlineWarn"] = {
 			fg = "NONE",
 			bg = "NONE",
 			sp = c.warning_orange,
 			underline = not opts.styles.undercurl,
 			undercurl = opts.styles.undercurl,
 		},
-		["DiagnosticsUnderlineInfo"] = {
+		["DiagnosticUnderlineInfo"] = {
 			fg = "NONE",
 			bg = "NONE",
 			sp = c.info_yellow,
 			underline = not opts.styles.undercurl,
 			undercurl = opts.styles.undercurl,
 		},
-		["DiagnosticsUnderlineHint"] = {
+		["DiagnosticUnderlineHint"] = {
 			fg = "NONE",
 			bg = "NONE",
 			sp = c.hint_blue,
