@@ -16,6 +16,11 @@ M.groups = function(opts)
 		["CocNotificationInfo"] = { bg = c["ye-2"], fg = c["ye-2"], bold = true },
 		["CocNotificationWarning"] = { bg = c["or-2"], fg = c["or-2"], bold = true },
 		["CocNotificationError"] = { bg = c["re-2"], fg = c["re-2"], bold = true },
+		CocUnusedHighlight = { fg = c["tx-3"], italic = true, undercurl = true },
+		CocErrorHighlight = { undercurl = true, sp = c["re-2"] },
+		CocWarningHighlight = { sp = c["ye-2"], undercurl = true },
+		CocInfoHighlight = { sp = c["gr-2"], undercurl = true },
+		CocHintHighlight = { sp = c["or-2"], undercurl = true },
 	}
 end
 
