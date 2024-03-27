@@ -26,10 +26,16 @@ M.groups = function(opts)
 		["IncSearch"] = { fg = c["bg"], bg = c["cy-2"] },
 		["Substitute"] = { fg = c["bg"], bg = c["cy"] },
 
-		["DiffAdd"] = { fg = c["bg"], bg = c["gr"] },
-		["DiffChange"] = { fg = c["bg-2"], bg = c["pu"] },
-		["DiffDelete"] = { fg = c["bg-2"], bg = c["re"] },
-		["DiffText"] = { fg = c["bg"], bg = c["bl-2"] },
+		["DiffAdd"] = { bg = c["bg-2"], fg = c["gr"] },
+		["DiffChange"] = { bg = c["bg-2"], fg = c["pu"] },
+		["DiffDelete"] = { bg = c["bg-2"], fg = c["re"] },
+		["DiffText"] = { bg = c["bg-2"], fg = c["bl-2"] },
+		["diffAdded"] = { link = "DiffAdd" },
+		["diffChanged"] = { link = "DiffChange" },
+		["diffRemoved"] = { link = "DiffDelete" },
+		["Added"] = { link = "DiffAdd" },
+		["Changed"] = { link = "DiffChange" },
+		["Removed"] = { link = "DiffDelete" },
 
 		--#region Actual text highlighting
 
