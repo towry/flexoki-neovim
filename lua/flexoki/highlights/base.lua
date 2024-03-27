@@ -83,7 +83,7 @@ M.groups = function(opts)
 
 		["SignColumn"] = { fg = "NONE", bg = "NONE" },
 
-		["MsgArea"] = { fg = "NONE", bg = c["bg-2"] },
+		["MsgArea"] = { fg = c["tx-2"], bg = c["bg"] },
 		["ModeMsg"] = { fg = "NONE", bg = c["bg-2"] },
 		["MsgSeparator"] = { fg = "NONE", bg = c["bg-2"] },
 
@@ -97,7 +97,7 @@ M.groups = function(opts)
 		["TabLineSel"] = { fg = c["tx"], bg = c["ui-3"] },
 		["TabLineFill"] = { fg = c["line"], bg = c["ui"] },
 
-		["StatusLine"] = { fg = c["tx"], bg = c["ui-3"] },
+		["StatusLine"] = { fg = c["tx-2"], bg = c["ui"] },
 		["StatusLineNC"] = { fg = c["tx-2"], bg = c["ui"] },
 		["StatusLineTerm"] = { fg = c["tx-2"], bg = c["ui-3"] },
 		["StatusLineTermNC"] = { fg = c["tx-2"], bg = c["ui-3"] },
