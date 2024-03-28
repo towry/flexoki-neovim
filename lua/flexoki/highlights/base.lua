@@ -14,22 +14,22 @@ M.groups = function(opts)
 		["Bold"] = { fg = "NONE", bg = "NONE", bold = true },
 		["Italic"] = { fg = "NONE", bg = "NONE", italic = true },
 
-		["SpellBad"] = { fg = c["re-2"], bg = "NONE", underline = true },
+		["SpellBad"] = { fg = c["re_2"], bg = "NONE", underline = true },
 		["SpellCap"] = { fg = c["ye"], bg = "NONE", underline = true },
 		["SpellLocal"] = { fg = c["gr"], bg = "NONE", underline = true },
 		["SpellRare"] = { fg = c["pu"], bg = "NONE", underline = true },
 
-		["NonText"] = { fg = c["tx-3"], bg = "NONE" },
+		["NonText"] = { fg = c["tx_3"], bg = "NONE" },
 		["EndOfBuffer"] = { fg = "NONE", bg = "NONE" },
 
-		["Search"] = { fg = c["tx"], bg = c["cy-2"] },
-		["IncSearch"] = { fg = c["bg"], bg = c["cy-2"] },
-		["Substitute"] = { fg = c["bg"], bg = c["cy"] },
+		["Search"] = { fg = c["tx"], bg = c["cy_2"] },
+		["IncSearch"] = { fg = c["bg"], bg = c["cy_2"] },
+		["Substitute"] = { fg = c["bg_2"], bg = c["cy"] },
 
-		["DiffAdd"] = { bg = c["bg-2"], fg = c["gr"] },
-		["DiffChange"] = { bg = c["bg-2"], fg = c["pu"] },
-		["DiffDelete"] = { bg = c["bg-2"], fg = c["re"] },
-		["DiffText"] = { bg = c["bg-2"], fg = c["bl-2"] },
+		["DiffAdd"] = { bg = c["bg_2"], fg = c["gr"] },
+		["DiffChange"] = { bg = c["bg_2"], fg = c["pu"] },
+		["DiffDelete"] = { bg = c["bg_2"], fg = c["re"] },
+		["DiffText"] = { bg = c["bg_2"], fg = c["bl_2"] },
 		["diffAdded"] = { link = "DiffAdd" },
 		["diffChanged"] = { link = "DiffChange" },
 		["diffRemoved"] = { link = "DiffDelete" },
@@ -39,7 +39,7 @@ M.groups = function(opts)
 
 		--#region Actual text highlighting
 
-		["Comment"] = { fg = c["tx-3"], bg = "NONE", italic = true },
+		["Comment"] = { fg = c["tx_3"], bg = "NONE", italic = true },
 
 		["Constant"] = { fg = c["ye"], bg = "NONE" },
 		["String"] = { fg = c["cy"], bg = "NONE" },
@@ -55,7 +55,7 @@ M.groups = function(opts)
 		["Conditional"] = { link = "Keyword" },
 		["Repeat"] = { link = "Keyword" },
 		["Label"] = { link = "Keyword" },
-		["Operator"] = { fg = c["tx-2"], bg = "NONE" },
+		["Operator"] = { fg = c["tx_2"], bg = "NONE" },
 		["Keyword"] = { fg = c["gr"], bg = "NONE", italic = true },
 		["Exception"] = { link = "Keyword" },
 
@@ -71,7 +71,7 @@ M.groups = function(opts)
 		["Typedef"] = { fg = c["or"], bg = "NONE" },
 
 		["SpecialComment"] = { fg = c["tx"], bg = "NONE" },
-		["Special"] = { fg = c["tx-2"], bg = "NONE" },
+		["Special"] = { fg = c["tx_2"], bg = "NONE" },
 		["SpecialChar"] = { fg = c["ma"], bg = "NONE" },
 		["Tag"] = { fg = c["cy"], bg = "NONE" },
 		["Debug"] = { fg = c["ma"], bg = "NONE" },
@@ -83,45 +83,45 @@ M.groups = function(opts)
 
 		["SignColumn"] = { fg = "NONE", bg = "NONE" },
 
-		["MsgArea"] = { fg = c["tx-2"], bg = c["bg"] },
-		["ModeMsg"] = { fg = "NONE", bg = c["bg-2"] },
-		["MsgSeparator"] = { fg = "NONE", bg = c["bg-2"] },
+		["MsgArea"] = { fg = c["tx_2"], bg = c["bg"] },
+		["ModeMsg"] = { fg = "NONE", bg = c["bg_2"] },
+		["MsgSeparator"] = { fg = "NONE", bg = c["bg_2"] },
 
 		-- Pop-up menu
-		["Pmenu"] = { fg = c["tx-2"], bg = c["bg-2"], sp = "NONE", blend = 50 },
-		["PmenuSel"] = { fg = c["tx"], bg = c["cy-2"] },
+		["Pmenu"] = { fg = c["tx_2"], bg = c["bg_2"], sp = "NONE", blend = 50 },
+		["PmenuSel"] = { fg = c["tx"], bg = c["cy_2"] },
 		["PmenuSbar"] = { fg = "NONE", bg = c["ui"] },
-		["PmenuThumb"] = { fg = "NONE", bg = c["ui-3"] },
+		["PmenuThumb"] = { fg = "NONE", bg = c["ui_3"] },
 
-		["TabLine"] = { fg = c["tx-2"], bg = c["ui"] },
-		["TabLineSel"] = { fg = c["tx"], bg = c["ui-3"] },
+		["TabLine"] = { fg = c["tx_2"], bg = c["ui"] },
+		["TabLineSel"] = { fg = c["tx"], bg = c["ui_3"] },
 		["TabLineFill"] = { fg = c["line"], bg = c["ui"] },
 
-		["StatusLine"] = { fg = c["tx-2"], bg = c["ui"] },
-		["StatusLineNC"] = { fg = c["tx-2"], bg = c["ui"] },
-		["StatusLineTerm"] = { fg = c["tx-2"], bg = c["ui-3"] },
-		["StatusLineTermNC"] = { fg = c["tx-2"], bg = c["ui-3"] },
+		["StatusLine"] = { fg = c["tx_2"], bg = c["ui"] },
+		["StatusLineNC"] = { fg = c["tx_2"], bg = c["ui"] },
+		["StatusLineTerm"] = { fg = c["tx_2"], bg = c["ui_3"] },
+		["StatusLineTermNC"] = { fg = c["tx_2"], bg = c["ui_3"] },
 
-		["WinBar"] = { fg = c["tx"], bg = c["ui-3"] },
-		["WinBarNC"] = { fg = c["tx-2"], bg = c["ui"] },
+		["WinBar"] = { fg = c["tx"], bg = c["ui_3"] },
+		["WinBarNC"] = { fg = c["tx_2"], bg = c["ui"] },
 
-		["WildMenu"] = { fg = "NONE", bg = c["cy-2"] },
-		["Folded"] = { fg = c["ui-2"], bg = c["alt_bg"] },
-		["FoldColumn"] = { fg = c["ui-2"], bg = c["alt_bg"] },
-		["LineNr"] = { fg = c["tx-3"], bg = "NONE" },
-		["FloatBorder"] = { fg = c["tx-3"], bg = c["bg-2"] },
-		["Whitespace"] = { fg = c["tx-3"], bg = "NONE" },
+		["WildMenu"] = { fg = "NONE", bg = c["cy_2"] },
+		["Folded"] = { fg = c["ui_2"], bg = c["alt_bg"] },
+		["FoldColumn"] = { fg = c["ui_2"], bg = c["alt_bg"] },
+		["LineNr"] = { fg = c["tx_3"], bg = "NONE" },
+		["FloatBorder"] = { fg = c["tx_3"], bg = c["bg_2"] },
+		["Whitespace"] = { fg = c["tx_3"], bg = "NONE" },
 		["WinSeparator"] = { fg = c["ui"], bg = "NONE" },
-		["WinSeparatorNC"] = { fg = c["ui-3"], bg = "NONE" },
-		["NormalFloat"] = { fg = c["tx-2"], bg = c["bg-2"] },
+		["WinSeparatorNC"] = { fg = c["ui_3"], bg = "NONE" },
+		["NormalFloat"] = { fg = c["tx_2"], bg = c["bg_2"] },
 		["WarningMsg"] = { fg = c["re"], bg = c["bg"] },
 		["QuickFixLine"] = { fg = "NONE", bg = c["ui2_blue"] },
 
 		-- The MatchWord groups don't actually exist, but we define them here
 		-- to link to them in plugin specific files instead of redefining the
 		-- same group multiple times
-		["MatchWord"] = { fg = "NONE", bg = c["ui-2"] },
-		["MatchParen"] = { fg = "NONE", bg = c["ui-2"] },
+		["MatchWord"] = { fg = "NONE", bg = c["ui_2"] },
+		["MatchParen"] = { fg = "NONE", bg = c["ui_2"] },
 		["MatchWordCur"] = { fg = "NONE", bg = "NONE" },
 		["MatchParenCur"] = { fg = "NONE", bg = "NONE" },
 
@@ -130,22 +130,22 @@ M.groups = function(opts)
 
 		["SpecialKey"] = { fg = c["blue"], bg = "NONE", bold = true },
 		["Title"] = { fg = c["bl"], bg = "NONE", bold = true },
-		["ErrorMsg"] = { fg = c["re-2"], bg = "NONE", bold = true },
+		["ErrorMsg"] = { fg = c["re_2"], bg = "NONE", bold = true },
 		["MoreMsg"] = { fg = c["orange"], bg = "NONE" },
 		["Question"] = { fg = c["orange"], bg = "NONE" },
 
 		-- Cursor and selection related
 		["Cursor"] = { fg = c["bg"], bg = c["tx"] },
 		["lCursor"] = { fg = c["bg"], bg = c["tx"] },
-		["CursorLine"] = { fg = "NONE", bg = c["bg-2"] },
+		["CursorLine"] = { fg = "NONE", bg = c["bg_2"] },
 		["CursorLineNr"] = { fg = c["tx"], bg = "NONE", bold = true },
-		["CursorColumn"] = { fg = "NONE", bg = c["bg-2"] },
+		["CursorColumn"] = { fg = "NONE", bg = c["bg_2"] },
 		["ColorColumn"] = { fg = "NONE", bg = c["ui"] },
 		["CursorIM"] = { fg = c["bg"], bg = c["tx"] },
 		["TermCursor"] = { fg = c["bg"], bg = c["tx"] },
-		["TermCursorNC"] = { fg = c["bg"], bg = c["tx-3"] },
+		["TermCursorNC"] = { fg = c["bg"], bg = c["tx_3"] },
 		["Visual"] = { fg = "NONE", bg = c["ui"] },
-		["VisualNOS"] = { fg = "NONE", bg = c["ui-2"] },
+		["VisualNOS"] = { fg = "NONE", bg = c["ui_2"] },
 	}
 end
 
