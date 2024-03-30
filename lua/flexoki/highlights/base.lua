@@ -49,14 +49,14 @@ M.groups = function(opts)
 		["Float"] = { fg = c["pu"], bg = "NONE" },
 
 		["Identifier"] = { fg = c["bl"], bg = "NONE" },
-		["Function"] = { fg = c["or"], bg = "NONE", italic = true },
+		["Function"] = { fg = c["or"], bg = "NONE", italic = false },
 
 		["Statement"] = { fg = "NONE", bg = "NONE" },
 		["Conditional"] = { link = "Keyword" },
 		["Repeat"] = { link = "Keyword" },
 		["Label"] = { link = "Keyword" },
 		["Operator"] = { fg = c["tx_2"], bg = "NONE" },
-		["Keyword"] = { fg = c["gr"], bg = "NONE", italic = true },
+		["Keyword"] = { fg = c["gr"], bg = "NONE", italic = false },
 		["Exception"] = { link = "Keyword" },
 
 		["PreProc"] = { fg = c["ma"], bg = "NONE" },
