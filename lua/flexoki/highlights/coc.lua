@@ -6,7 +6,6 @@ local M = {}
 M.groups = function(opts)
 	local c = palette.palette()
 
-	--- @type table<string, vim.api.keyset.highlight>
 	return {
 		["CocFloating"] = { link = "NormalFloat" },
 		["CocNotificationNormal"] = { fg = c["tx_2"], bg = c["ui_3"] },
