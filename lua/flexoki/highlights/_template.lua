@@ -1,13 +1,13 @@
-local palette = require('flexoki.palette')
+local palette = require("flexoki.palette")
 
 local M = {}
 
-M.groups = function()
+---@param opts FlexokiOptions
+M.groups = function(opts)
 	local c = palette.palette()
 
 	--- @type table<string, vim.api.keyset.highlight>
-	return {
-	}
+	return {}
 end
 
 return M

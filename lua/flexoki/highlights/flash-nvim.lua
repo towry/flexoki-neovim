@@ -9,7 +9,7 @@ M.groups = function()
 	return {
 
 		['FlashBackdrop']   = { link = 'Comment' },
-		['FlashMatch']      = { fg   = c['bg'], bg = c['tx-3'] },
+		['FlashMatch']      = { fg   = c['bg'], bg = c['tx_3'] },
 		['FlashCurrent']    = { fg   = c['bg'], bg = c['tx'] },
 		['FlashLabel']      = { fg   = c['bg'], bg = c['ye'] },
 		['FlashPrompt']     = { link = 'MsgArea' },
